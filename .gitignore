@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Build artifacts
+build/
+dist/
+
+# Virtual environments
+.env
+.venv
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log
+
+# Data and test files
+data/audios/*
+legacy/*
+model/*
+resources/*
+
