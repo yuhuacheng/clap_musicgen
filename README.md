@@ -11,8 +11,8 @@ CLAP-MusicGen is a contrastive audio-text embedding model that combines the stre
 - [💻 Quick Start](#-quick-start)
 - [🎧 Similarity Search Demo](#-similarity-search-demo)
 - [🤿 Training / Evaluation Deep Dives](#-deeo-dives)
-- [🖇️ References](#-references)
 - [🪪 License](#-license)
+- [🖇️ Citation](#-citation)
 
 ## 👨‍🏫 Overview
 CLAP-MusicGen is a multimodal model designed to enhance music retrieval capabilities. By embedding both audio and text into a shared space, it enables efficient music-to-music and text-to-music search. Unlike traditional models limited to predefined categories, CLAP-MusicGen supports zero-shot classification, retrieval, and embedding extraction, making it a valuable tool for exploring and organizing music collections.
@@ -102,14 +102,36 @@ Please refer to the [demo](demo.ipynb) notebook that demonstates the **audio-to-
 ## 🤿 Training / Evaluation Deep Dives
 (Coming soon)
 
-## 🖇️ References
-
-- **CLAP Paper**: 
-  - [Learning Audio Concepts from Natural Language Supervision](https://arxiv.org/abs/2206.04769)
-  - [Large-scale Contrastive Language-Audio Pretraining with Feature Fusion and Keyword-to-Caption Augmentation](https://arxiv.org/abs/2211.06687)
-- **MusicGen Paper**: [Simple and Controllable Music Generation](https://arxiv.org/abs/2306.05284)
-
 ## 🪪 License
+* The code in this repository is released under the MIT license as found in the [LICENSE file](LICENSE).
+* Since the model was trained off of the pretrained MusicGen weights, its weights in this repository are released under the CC-BY-NC 4.0 license as found in the [LICENSE_weights file](LICENSE_weights).
 
+
+## 🖇️ Citation
+```
+@inproceedings{copet2023simple,
+    title={Simple and Controllable Music Generation},
+    author={Jade Copet and Felix Kreuk and Itai Gat and Tal Remez and David Kant and Gabriel Synnaeve and Yossi Adi and Alexandre Défossez},
+    booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+    year={2023},
+}
+```
+
+```
+@inproceedings{laionclap2023,
+  title = {Large-scale Contrastive Language-Audio Pretraining with Feature Fusion and Keyword-to-Caption Augmentation},
+  author = {Wu*, Yusong and Chen*, Ke and Zhang*, Tianyu and Hui*, Yuchen and Berg-Kirkpatrick, Taylor and Dubnov, Shlomo},
+  booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing, ICASSP},
+  year = {2023}
+}
+```
+```
+@inproceedings{htsatke2022,
+  author = {Ke Chen and Xingjian Du and Bilei Zhu and Zejun Ma and Taylor Berg-Kirkpatrick and Shlomo Dubnov},
+  title = {HTS-AT: A Hierarchical Token-Semantic Audio Transformer for Sound Classification and Detection},
+  booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing, ICASSP},
+  year = {2022}
+}
+```
 
 
